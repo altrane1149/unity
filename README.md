@@ -1,2 +1,2 @@
-# unity-Fighting
-【Unity】格闘ゲーム
+# unity
+Unityプロジェクト
