@@ -15,8 +15,20 @@ public class Chara : MonoBehaviour
 	
 	}
 
-    void OnCollisionEnter()
+    // 他のオブジェクトに接触した時
+    void OnCollisionEnter(Collision collision)
     {
         anim.SetBool("DamageDown", true);
+    }
+
+    // 他のオブジェクトに接触している間
+    void OnCollisionStay(Collision collision)
+    {
+
+    }
+
+    // 他のオブジェクトから離れた時
+    void OnCollisionExit(Collision collision)
+    {
     }
 }
